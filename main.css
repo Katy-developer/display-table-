@@ -1,0 +1,118 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*navbar*/
+/*normalization reset*/
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ /*styling*/
+
+body{
+    background: rgb(167, 167, 167);
+}
+
+#navbar {
+    background: rgb(218, 218, 218);
+    /*height: 100px */
+    display: table;
+    padding: 0 2.6%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+#navbar ul {
+    display: table-cell;
+    vertical-align: middle;
+    /*border:  1px solid #999;*/
+    
+    /*display: inline-block;
+    
+    vertical-align: middle;*/
+}
+
+
+#navbar li {
+    display: table-cell;
+    vertical-align: middle;
+    /*border:  1px solid #666;*/
+  
+}
+
+
+#navbar li a {
+    color: rgb(70, 70, 70);
+    padding: 37px 18px;
+    display: block;
+
+}
+
+#navbar .nav-brand {
+    
+}
+
+#navbar .nav-brand .image {
+    padding: 0px;
+}
+
+#navbar .nav-main .phone {
+    font-weight: bold;
+    padding: 37px 30px;
+}
+
+#navbar .nav-main {
+    
+}
+
+#navbar .nav-user {
+    width: 11%;
+    
+}
+
+
+/* преимущества не пришлось возитья с модификациями струкруты
+    вертикальное выранивание 
+    резиновость не плохая
+    box - auto 
+
+    block inline block table 
+     пока не указан размер 
+     в горизонтальном направлении
+     horizontal 
+      box по умолчанию
+      1) size = border - margin - border-width -padding
+
+      box  по задданому значению 
+      box fixied size  (width height)
+      2) size  content = width + padding + border- width + margin
+
+      box fixied size ( width height)
+
+      border sizing : border box
+
+      3) size content = width - margin - border-width - padding
+
+      *{
+         box-sizing: border-box; // outside in  главная рамка
+         -- box-sizing: content-box; // inside out контент в приоритете
+    }
+
+
+
+      */
+
+      
